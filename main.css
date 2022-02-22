@@ -3,3 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary: #379fec;
+    --secondary: #e1e1e3;
+    --progress-background: #aaaaac;
+    --text-color: #24292d;
+}
