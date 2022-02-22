@@ -10,3 +10,23 @@
     --progress-background: #aaaaac;
     --text-color: #24292d;
 }
+
+body {
+    background-color: #dedede;
+}
+
+.cv-wrapper {
+    width: 100%;
+    max-width: 1280px;
+    min-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.aside {
+    width: 500px;
+    height: 100%;
+    background-color: var(--secondary);
+}
