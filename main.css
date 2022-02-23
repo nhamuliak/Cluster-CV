@@ -48,21 +48,20 @@ body {
 }
 
 .avatar-box img {
+    display: block;
     width: 100%;
 }
 
 .media {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    display: block;
     width: 100%;
 }
 
 .link {
     display: flex;
     align-items: center;
-    padding: 10px 30px;
-    font-size: 1.4em;
+    padding: 20px 30px;
+    font-size: 1.2em;
     color: #fff;
     font-weight: 100;
     background-color: #256eb8;
@@ -92,6 +91,7 @@ body {
 
 .personal {
     margin: 10px 0;
+    font-size: 1.2em;
     color: var(--text-color);
     clear: both;
 }
@@ -109,7 +109,7 @@ body {
 }
 
 .aside-info {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .aside-title {
@@ -141,7 +141,7 @@ body {
 
 .skill-progress .bar {
     width: 100%;
-    height: 10px;
+    height: 8px;
     background-color: var(--progress-background);
 }
 
@@ -171,7 +171,7 @@ body {
 /* CV CONTENT */
 
 .cv-container {
-    padding: 30px;
+    padding: 40px;
 }
 
 .header {
@@ -179,10 +179,11 @@ body {
 }
 
 .header .name {
-    font-size: 2.2em;
+    font-size: 2.6em;
     text-transform: uppercase;
     color: var(--primary);
     margin-bottom: 10px;
+    letter-spacing: 10px;
 }
 
 .header .position {
@@ -190,17 +191,19 @@ body {
     margin-bottom: 15px;
     color: var(--text-color);
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .header .description {
     font-size: 1.2em;
+    line-height: 1.6;
 }
 
 .section-title {
     background: var(--secondary);
-    margin: 30px -30px 20px;
-    width: calc(100% + 80px);
-    padding: 15px 30px;
+    margin: 30px -40px 20px;
+    width: calc(100% + 100px);
+    padding: 15px 40px;
     text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: 1px;
@@ -230,7 +233,7 @@ body {
 
 .cv-details .company {
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 300;
     margin-bottom: 10px;
     font-size: 1.2em;
 }
